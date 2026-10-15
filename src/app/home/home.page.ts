@@ -1,13 +1,11 @@
 import { Component, signal, computed, inject } from '@angular/core';
 import restaurantesJSON from '../../assets/datos/restaurantes.json';
-import { IonicModule } from '@ionic/angular';
 import { ToastController } from '@ionic/angular';
 import { Restaurante } from '../interface/restaurante';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [IonicModule],
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss']
 })
